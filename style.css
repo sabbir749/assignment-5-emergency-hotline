@@ -1,6 +1,16 @@
 @import "tailwindcss";
 
-main button:hover{
-    background: rgba(0, 128, 0, 0.603);
+.phone-btn:hover{
+    background: rgba(0, 128, 0, 0.473);
+    color: white;
+}
+
+ .clear-btn:hover{
+    background: rgba(0, 128, 0, 0.473);
+    color: white;
+}
+
+.copy-btn:hover {
+    background: rgb(85, 77, 77);
     color: white;
 }
