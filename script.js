@@ -38,7 +38,7 @@ for (const callBtn of callButtons) {
                         <h1 class="font-semibold">${cardTitle}</h1>
                         <p class="text-[#5c5c5c] text-[14px]">${cardNumber}</p>
                     </div>
-                    <div class="text-[14px]">${new Date().toLocaleTimeString()}</div>
+                    <div class="text-[14px]">${new Date().toLocaleTimeString("en-US")}</div>
                 </div>
 `
 
